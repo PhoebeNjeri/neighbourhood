@@ -14,15 +14,16 @@
     <title>Hood watch</title>
 </head>
 <body>
+    <div style="background-image: url('/static/images/pexels-david-mcbee-1546166.jpg');"></div>
 
         {% block content %}
         <br><br><br>
         <div class="container">
 
-            <h1>Welcome to the neighbrhood watch!</h1>
-            <h6 style="text-align:center;">{{date|date:"l d F Y"}}</h6>
+            <h1 style="text-align: center;">Welcome to the neighbrhood watch!</h1>
+            <h6 style="text-align: center;">{{date|date:"l d F Y"}}</h6>
 
-            <h5>HHHHHHHHHHHHHHHHHHHHH  FF</h5>
+            <h5 style="text-align: center;">Welcome to the neighborhood watchapp! If you can't find your hood just create your own on</h5>
 
             <a href="{% url 'new-hood'%}">
                 <button class="btn btn-outline-primary btn-sm">Create a hood</button>
