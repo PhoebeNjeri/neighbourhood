@@ -28,8 +28,8 @@ Install all the necessary requirements by running pip install -r requirements.tx
 $ ./manager.py runserver
 
 # Technology used
-Python3.6
-Django 1.11
+Python3.8
+Django 3.2
 Heroku
 Bootstrap
 
